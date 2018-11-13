@@ -73,7 +73,7 @@ Private Sub CreateMenuItems(ByVal menu As RichEditPopupMenu, ByVal range As Docu
 		For i As Integer = lastIndex To 0 Step -1
 		   Dim suggestion As SuggestionBase = suggestions(i)
 		   Dim item As New SuggestionMenuItem(Me.richEditControl1.Document, suggestion.Suggestion, range)
-		   item.Image = My.Resources.suggestion
+		   item.Image = Resources.suggestion
 		   menu.Items.Insert(0, item)
 		Next i
 	Else
