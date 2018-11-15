@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/RichEditPopupMenu/Form1.cs) (VB: [Form1.vb](./VB/RichEditPopupMenu/Form1.vb))
+<!-- default file list end -->
 # How to integrate SpellChecker menu items into the XtraRichEdit context menu
 
 
